@@ -1,0 +1,18 @@
+.categories {
+    flex: 0 1 256px;
+display: flex;
+flex-direction: column;
+}
+a {
+    text-decoration: none;
+    font-family: sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    background-color: rgb(95, 25, 54);
+    color: white;
+}
+a:hover {
+    box-shadow: 0 2px 5px;
+    color:darkgray;
+}
