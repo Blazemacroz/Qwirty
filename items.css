@@ -6,7 +6,7 @@
     flex-grow: 1;
 }
 .item {
-    flex: 1 0 10px;
+    flex: 0 0 10px;
     margin-right: 10px;
     margin-bottom: 10px;
     display:flex;
@@ -14,4 +14,30 @@
 }
 .item:hover {
     box-shadow: 0 2px 5px -2px black;
+}
+.item-name {
+    background-color:mediumvioletred;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    font-size: medium;
+}
+.fact-line {
+    border-radius: 50px;
+    background-color: mediumvioletred;
+}
+.add-item {
+    background-color: rgb(0, 59, 252);
+    border-radius: 50px;
+}
+.item-description {
+    border-radius: 50px;
+}
+@media screen and (max-width: 768px) {
+    .item {
+        font-size: larger;
+        flex-basis: 100%;
+        flex-direction: column;
+    }
 }
