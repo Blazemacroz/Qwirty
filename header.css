@@ -1,0 +1,47 @@
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+}
+.full-width {
+        display: none;
+    }
+.short-width {
+    display: flex;
+}
+.sub-nav {
+    display: flex;
+}
+@media screen and (min-width: 768px) {
+    .full-width {
+        display: flex;
+    }
+    .short-width {
+        display: none;
+    }
+}
+.nav-list {
+    display: flex;
+    flex-direction: row;
+}
+.nav-list a {
+    padding: 10px;
+    border-right: 1px solid maroon;
+}
+.nav-list li:last-of-type a {
+    border-right: none;
+}
+.search-form {
+    display: flex;
+    flex: 1 0;
+    padding: 10px;
+    border: none;
+}
+.search-form:first-child {
+    border-bottom: 1px solid purple;
+    flex-grow: 2;
+}
+.company-name {
+    font-size: 25px;
+    color: rgb(107, 43, 226);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
